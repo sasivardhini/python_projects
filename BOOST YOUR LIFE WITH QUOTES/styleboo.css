@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    width:1170px;
+    margin:auto;
+}
+.logo img{
+    width:150px;
+    float:left;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.7));
+    background-image: url("https://aicl.training/wp-content/uploads/2020/08/h4.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.text-box{
+    position: absolute;
+    margin:20% 30%;
+    text-align: left;
+}
+.text-box h2{
+    text-align: left;
+
+    font-size: 80px;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(#ffffff);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav-link {
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    float: right;
+    list-style: none;
+    padding-right: 10px;
+    flex: 1;
+  }
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 15px;
+position: relative;
+width: 120px;
+margin: 15px;
+}
+.nav-links li{
+    display: inline-block;
+
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#58c7d0;
+    display: block;
+    margin: auto;
+    transition: 0.5;
+}
+.nav-links ul li:hover::after{
+    width:100%
+}
+.text-box{
+    color: rgb(18, 133, 210);
+    font-weight: bold;
+    text-align:center;
+}
+.hero-btn{
+    display: inline;
+    text-decoration: none;
+    color:rgb(18, 133, 210);
+    border: 1px powderblue;
+    background:transparent;
+}
+h3{
+   font-weight: 600;
+   margin:10px 0;
+    text-align: left;
+}
